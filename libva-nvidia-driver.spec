@@ -4,7 +4,7 @@
 
 Name:           libva-nvidia-driver
 Version:        0.0.10
-Release:        1%{?dist}
+Release:        %autorelease
 Summary:        A VA-API implemention using NVIDIA's NVDEC
 
 License:        MIT
@@ -46,11 +46,4 @@ decode of web content, and may not operate correctly in other applications.
 %{_libdir}/dri/nvidia_drv_video.so
 
 %changelog
-* Wed Jun 28 2023 Davide Cavalca <dcavalca@fedoraproject.org> - 0.0.10-1
-- Update to 0.0.10
-
-* Sat Mar 18 2023 Neal Gompa <ngompa@fedoraproject.org> - 0.0.9-1
-- Update to 0.0.9
-
-* Sat Mar 04 2023 Robert-André Mauchin <zebob.m@gmail.com> - 0.0.5-1
-- Initial version
+%autochangelog
