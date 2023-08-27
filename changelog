@@ -1,3 +1,6 @@
+* Tue Sep 19 2023 Zhengyu He <hezhy472013@gmail.com> - 0.0.10-4
+- Add support for riscv64
+
 * Wed Jun 28 2023 Davide Cavalca <dcavalca@fedoraproject.org> - 0.0.10-1
 - Update to 0.0.10
 
