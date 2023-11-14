@@ -26,7 +26,7 @@ Provides:       nvdec-vaapi-driver = %{version}-%{release}
 Conflicts:      libva-vdpau-driver
 
 # NVIDIA driver architectures
-ExclusiveArch:  %{x86_64} %{ix86} %{arm64} ppc64le
+ExclusiveArch:  %{x86_64} %{ix86} %{arm64} ppc64le riscv64
 
 %description
 This is an VA-API implementation that uses NVDEC as a backend. This
